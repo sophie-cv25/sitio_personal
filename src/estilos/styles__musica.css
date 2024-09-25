@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 18px;
 }
 
 p {
@@ -45,8 +45,8 @@ body {
 }
 
 main {
-    padding: 0 40px 0 60px; /* Ajusta los valores de padding si es necesario */
-    height: calc(100% - 80px); /* Asegúrate de que esto coincide con la altura de la barra */
+    padding: 40px 40px 40px 60px; /* Ajusta los valores de padding si es necesario */
+    height: auto; /* Asegúrate de que esto coincide con la altura de la barra */
     overflow: auto;
 }
 
@@ -54,14 +54,23 @@ article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    row-gap: 30px;
     height: 100%; /* Ocupa todo el espacio de main */
+
 }
 
 .g1 {
     text-align: center;
     grid-column: 1 / 4;
     grid-row: 1 / 2;
+
 }
+.g1 h1{
+    margin-bottom: 10px;
+
+}
+
+
 
 .g2 {
     grid-column: 1 / 2;
@@ -105,4 +114,7 @@ article {
     background-color: greenyellow;
     grid-column: 2 / 4;
     grid-row: 5 / 6;
+}
+.g2, .g4 ,.g6 ,.g8 p{
+    width: 500px;
 }

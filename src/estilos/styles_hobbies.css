@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: grey;
+}
+
+html, body {
+    height: 100%; /* Asegura que el body ocupe toda la altura de la pantalla */
+    overflow: hidden; /* Evita el desplazamiento */
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.barra2 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.barra2 a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.barra2 a:hover {
+    color: #ff0000; /* Color más oscuro al pasar el ratón */
+}
+
+main {
+    padding: 0 40px; /* Mantiene el padding lateral */
+    height: calc(100% - 80px); /* Ajusta la altura para que se ajuste al espacio visible */
+    overflow: auto; /* Permite el desplazamiento interno si es necesario */
+}
+.hb{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+.hb section{
+    margin-top: 40px;
+    background-color: rgb(245, 245, 245);
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.hb section p{
+    margin-top: 20px;
+    font-size:medium;
+    line-height: 25px;
+}
+
+
