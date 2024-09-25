@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: grey;
+}
+
+html, body {
+    height: 100%; /* Asegura que el body ocupe toda la altura de la pantalla */
+    overflow: hidden; /* Evita el desplazamiento */
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.barra {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.barra a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.barra a:hover {
+    color: #ff0000; /* Color más oscuro al pasar el ratón */
+}
+
+main {
+    padding: 0 40px; /* Mantiene el padding lateral */
+    height: calc(100% - 80px); /* Ajusta la altura para que se ajuste al espacio visible */
+    overflow: auto; /* Permite el desplazamiento interno si es necesario */
+}
+
+.inicio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 20px; /* Ajusta el margen superior para que se vea bien */
+    height: 100%; /* Asegura que ocupe todo el espacio disponible */
+}
+
+.inicio .grid1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin-bottom: 20px; /* Reduce el margen inferior para evitar el desbordamiento */
+}
+
+.inicio .grid1 h1 {
+    width: 50%; 
+    font-size: 40px;
+    margin-bottom: 15px; /* Reduce el margen inferior */
+}
+
+.inicio .grid1 p {
+    width: 70%; /* Ajusta el ancho al 100% */
+}
+
+.inicio .grid2 {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+
+.inicio .grid3 {
+    width: 100%; /* Ajusta el ancho al 100% */
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
+}
+
+.inicio .grid3 h2 {
+    margin-bottom: 10px;
+}
+
+.inicio .grid3 p {
+    margin-bottom: 1.5px;
+}

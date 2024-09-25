@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: grey;
+}
+
+html, body {
+    height: 100%;
+    overflow: auto; /* Cambiado a auto */
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 15px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.barra2 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+}
+
+.barra2 a {
+    text-decoration: none;
+    color: #adadad; /* Color para enlaces */
+    transition: color 0.3s; /* Efecto de transición */
+}
+
+.barra2 a:hover {
+    color: #ff0000; /* Color más oscuro al pasar el ratón */
+}
+
+main {
+    padding: 0 40px 0 60px; /* Ajusta los valores de padding si es necesario */
+    height: calc(100% - 80px); /* Asegúrate de que esto coincide con la altura de la barra */
+    overflow: auto;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100%; /* Ocupa todo el espacio de main */
+}
+
+.g1 {
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+.g2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.g3 {
+    background-color: hotpink;
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+
+.g4 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.g5 {
+    background-color: rgb(121, 81, 81);
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+
+.g6 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.g7 {
+    background-color: darkcyan;
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+}
+
+.g8 {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+
+.g9 {
+    background-color: greenyellow;
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+}
