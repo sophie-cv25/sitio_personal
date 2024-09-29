@@ -30,9 +30,10 @@ main {
 
 .barra {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     justify-items: center;
     margin-top: 20px;
+    padding: 0 10px 0 10px;
     background-color: white;
 }
 
@@ -46,7 +47,7 @@ main {
 .barra2 {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     justify-items: center;
 }
 
@@ -475,31 +476,6 @@ article .c1 p {
 
 }
 
-.barra {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    justify-items: center;
-    margin-top: 20px;
-    background-color: white;
-}
-
-.barra2 {
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    justify-items: center;
-}
-
-.barra2 a {
-    text-decoration: none;
-    color: #adadad; 
-    transition: color 0.3s; 
-}
-
-.barra2 a:hover {
-    color: #ff0000; 
-}
-
 .mascotas_estilos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -513,5 +489,5 @@ article .c1 p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center; /* Centra los elementos horizontalmente */
-    gap: 180px; /* Espacio entre las imágenes, ajusta según sea necesario */
+    gap: 100px; /* Espacio entre las imágenes, ajusta según sea necesario */
 }
