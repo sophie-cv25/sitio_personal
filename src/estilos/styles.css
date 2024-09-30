@@ -8,6 +8,7 @@
 
 html, body {
     height: 100%; 
+    background-color:#fcfbefa6;
     overflow: hidden; 
 }
 main {
@@ -34,7 +35,7 @@ main {
     justify-items: center;
     margin-top: 20px;
     padding: 0 10px 0 10px;
-    background-color: white;
+    height: 30px;
 }
 
 .barra a {
@@ -42,13 +43,14 @@ main {
     transition: color 0.3s;
 }
 .barra a:hover {
-    color: #ff0000; 
+    color: #415f80; 
 }
 .barra2 {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     justify-items: center;
+    height: 30px;
 }
 
 .barra2 a {
@@ -58,9 +60,15 @@ main {
 }
 
 .barra2 a:hover {
-    color: #ff0000; 
+    color: #415f80; 
 }
 /*----------------------------------------------inicio------------------------------------------------------------*/
+.inicio_estilos{
+    background-image: url(../imagenes/back4.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
 .inicio {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
@@ -75,7 +83,8 @@ main {
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    padding-left: 40px; 
 }
 
 .inicio .grid1 h1 {
@@ -100,6 +109,8 @@ main {
 
 .inicio .grid3 {
     width: 100%; 
+    padding-left: 40px; 
+
     grid-column: 1 / 4;
     grid-row: 2 / 4;
 }
@@ -110,8 +121,15 @@ main {
 
 .inicio .grid3 p {
     margin-bottom: 1.5px;
+
 }
 /*--------------------------------------------cine-----------------------------------------------------------------*/
+.cine_estilos{
+    background-image: url(../imagenes/back2.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
 .cine_estilos h1 {
     font-size: 250px;
     font-weight: 100;
@@ -161,12 +179,18 @@ article .c1 p {
     text-align: left; 
 }
 /*------------------------------------------------Música----------------------------------------------*/
+.musica_estilos{
+    background-image: url(../imagenes/back3.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
 .musica_estilos article {
     width: 80%;
-    margin: 0 auto; /* Centrar horizontalmente */
-    display: flex; /* Opcional: usar flexbox para contenido interno */
-    justify-content: center; /* Centrar horizontalmente el contenido interno */
-    align-items: center; /* Centrar verticalmente el contenido interno (opcional) */
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 
@@ -260,8 +284,11 @@ article .c1 p {
     width: 500px;
 }
 /*-------------------------------------hobbies---------------------------------------------------------*/
-.hobbies_estilos body{
-    background-color: rgb(245, 245, 245);
+.hobbies_estilos {
+    background-image:url(../imagenes/back1.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 .hobbies_estilos h1 {
     font-size: 60px;
@@ -305,6 +332,13 @@ article .c1 p {
     line-height: 20px; 
 }
 /*-------------------------------------------------Amigos----------------------------------------------------*/
+.amigos_estilos{
+    background-image: url(../imagenes/back2.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
 .amigos_estilos h1 {
     font-size: 60px;
 }
@@ -359,6 +393,12 @@ article .c1 p {
     grid-row: 2/4;
 }
 /*------------------------------------------------------------------------------familia------------------------------------------------------------*/
+.familia_estilos{
+    background-image: url(../imagenes/back3.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
 .familia_estilos h1 {
     font-size: 60px;
 }
@@ -391,13 +431,14 @@ article .c1 p {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Dos columnas en la grid interna */
     height: 250px;
-    background-color: #e6e6e6a6;
+    background-color: #c6dacd5a;
     border-radius: 40px;
     padding: 20px 0 20px 20px; /* Ajustar el padding */
 }
 
 .familia_estilos p {
     line-height: 18px;
+    color: rgb(77, 77, 77);
 }
 .f1{
     justify-content: center;
@@ -462,6 +503,12 @@ article .c1 p {
     align-items: center; 
 }
 /*-------------------------------------------------mascotas------------------------------------------------*/
+.mascotas{
+    background-image:url(../imagenes/back1.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
 .mascotas h1 {
     font-size: 100px;
 }
