@@ -194,3 +194,86 @@ body {
     border: none; /* Estilo de borde */
     font-size: 17.6px; /* 22px - 20% */
 }
+.ejercicio4 .card4 {
+    display: flex;
+    width: 845px;
+    height: auto;
+    padding: 11px 18px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 15px solid #000;
+}
+
+.ejercicio4 .card4 .header {
+    display: flex;
+    padding-bottom: 164px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.ejercicio4 .card4 .header p {
+    width: 28px;
+    height: 11px;
+    font-size: 9px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ejercicio4 .card4 .header h2 {
+    width: 171px;
+    font-size: 8px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ejercicio4 .card4 .contenido_card4 {
+    width: 776px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.ejercicio4 .card4 .contenido_card4 .textcard4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.ejercicio4 .card4 .contenido_card4 .textcard4 p {
+    font-size: 7px;
+    font-weight: 400;
+    color: #000;
+}
+
+.ejercicio4 .card4 .contenido_card4 .imagecard4 {
+    display: flex;
+    height: 266px;
+    justify-content: center;
+    align-items: center;
+    gap: -9px;
+    align-self: stretch;
+}
+
+.ejercicio4 .card4 .contenido_card4 .imagecard4 img {
+    height: 260px;
+    width: 261px;
+}
+
+.ejercicio4 .card4 .contenido_card4 .imagecard4 h1 {
+    color: #000;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 370px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -16px;
+    padding-top: 40px;
+    padding-right: 10px;
+}
