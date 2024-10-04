@@ -1,0 +1,10 @@
+[submodule "src/practicas/mondrian"]
+	path = src/practicas/mondrian
+	url = git@github.com:sophie-cv25/mondrian.git
+
+[submodule "src/practicas/maquetacion"]
+	path = src/practicas/maquetacion
+	url = git@github.com:sophie-cv25/ejercicios_maquetacion.git
+[submodule "ejercicios_maquetacion"]
+	path = ejercicios_maquetacion
+	url = git@github.com:sophie-cv25/ejercicios_maquetacion.git
